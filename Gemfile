@@ -11,11 +11,12 @@ gem 'jbuilder', '~> 2.7'
 gem 'jquery-rails'
 gem 'rake'
 gem 'bootsnap', '>= 1.4.2', require: false
+gem 'pg'
 
 group :development, :test do
-  gem 'sqlite3', '~> 1.4'
   gem 'rspec-rails'
   gem 'listen', '>= 3.0.5', '< 3.2'
+  gem 'capybara', '>= 2.15'
   # gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
 
@@ -33,11 +34,7 @@ end
 # end
 
 group :test do
-  gem 'capybara', '>= 2.15'
-end
-
-group :production do
-  gem 'pg'
+	gem "poltergeist"  
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
