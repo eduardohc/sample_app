@@ -9,11 +9,12 @@ gem 'webpacker', '~> 4.0'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.7'
 gem 'jquery-rails'
+gem 'rake'
 gem 'bootsnap', '>= 1.4.2', require: false
 
 group :development, :test do
   gem 'sqlite3', '~> 1.4'
-  gem 'rspec-rails', '2.9.0'
+  gem 'rspec-rails'
   gem 'listen', '>= 3.0.5', '< 3.2'
   # gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
