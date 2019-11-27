@@ -35,6 +35,5 @@
 yarn-debug.log*
 .yarn-integrity
 .DS_Store
-*~
 *.swp
 bundler_stubs/
